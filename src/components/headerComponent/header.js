@@ -1,20 +1,22 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import logo from '../../assets/images/bootstrap-logo.svg';
 
 function Header() {
   return (
     <header>
-        <div className="logo">
-            <img src="" alt="Bootstrap Logo" />
+        <div className="logo mx-auto">
+            <img src={logo} alt="Bootstrap Logo" />
         </div>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="home">Home</a>
+                <Link className="nav-link" to="/">Home</Link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="products">Products</a>
+            <Link className="nav-link" to="products">Products</Link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact">Contact</a>
+            <Link className="nav-link" to="contact">Contact</Link>
             </li>
         </ul>
     </header>

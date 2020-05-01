@@ -1,11 +1,6 @@
-body {
-    font-size: 20px;
-
-    p {
-        color: red;
-    }
-}
+@import "_config.scss";
 
 .logo {
     text-align: center;
+    max-width: 72px;
 }
