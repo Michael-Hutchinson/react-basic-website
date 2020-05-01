@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 // includes
-import './assets/css/default.min.css';
+import './Assets/css/default.min.css';
 
 // components
 import Header from './components/headerComponent/header';
